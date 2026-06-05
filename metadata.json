@@ -1,0 +1,10 @@
+{
+  "name": "Remix: Remix: Remix: StudentJobb - Snabba Extrajobb Hugo Andersson",
+  "description": "En modern plattform som matchar studenter med lokala arbetsgivare för snabba extrajobb och timpass. Designad för mobil enkelhet och maximal effektivitet.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
