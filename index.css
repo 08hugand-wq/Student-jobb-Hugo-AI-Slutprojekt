@@ -1,0 +1,22 @@
+/* Custom CSS & Keyframe Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Ensure custom elements and standard maps render seamlessly */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
